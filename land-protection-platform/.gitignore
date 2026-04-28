@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data (generated at runtime)
+backend/data/analyses.json
+backend/data/images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
